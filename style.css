@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+
+.container {
+  border: 2px solid black;
+  display: grid;
+  height: 700px;
+  width: 1500px;
+  margin: 80px auto;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.accordeon{
+}
+
+.questions-accordion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.line{
+    border: 1px solid grey;
+    margin: 20px 0px;
+}
+
