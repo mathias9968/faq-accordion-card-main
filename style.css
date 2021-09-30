@@ -27,13 +27,18 @@ hr{
 .accordeon{
 }
 
-.questions-accordion{
+.questions-accordeon{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 .line{
     border: 1px solid grey;
     margin: 20px 0px;
+}
+
+.answer-accordeon{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
 
